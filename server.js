@@ -15,7 +15,9 @@ const app = express();
 const PORT =process.env.PORT || 8000;
 connnectDB();
 
-const allowedOrigins = ['http://localhost:5173','http://localhost:5174'];
+// const allowedOrigins = ['http://localhost:5173','http://localhost:5174'];
+
+const allowedOrigins = [`http://localhost:5173`,`yoga-clasees-booking-client-gjeb.vercel.app`,`http://localhost:5174`,`yoga-clasees-booking-client.vercel.app`]
 
 const corsOptions = {
   origin: function (origin, callback) {
