@@ -17,7 +17,13 @@ connnectDB();
 
 // const allowedOrigins = ['http://localhost:5173','http://localhost:5174'];
 
-const allowedOrigins = [`http://localhost:5173`,`yoga-clasees-booking-client-gjeb.vercel.app`,`http://localhost:5174`,`yoga-clasees-booking-client.vercel.app`]
+// const allowedOrigins = [`http://localhost:5173`,`yoga-clasees-booking-client-gjeb.vercel.app`,`http://localhost:5174`,`yoga-clasees-booking-client.vercel.app`]
+const allowedOrigins = [
+  'http://localhost:5173',
+  'http://localhost:5174',
+  'https://yoga-clasees-booking-client-gjeb.vercel.app',
+  'https://yoga-clasees-booking-client.vercel.app'
+];
 
 const corsOptions = {
   origin: function (origin, callback) {
